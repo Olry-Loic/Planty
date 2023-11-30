@@ -56,15 +56,11 @@ if ( apply_filters( 'astra_header_profile_gmpg_link', true ) ) {
 	?>
 >
 	<?php
-	//astra_header_before();
-
-	//astra_header_after();
-
 	astra_content_before();
 	?>
 	<header>
 		<img src="<?php echo get_theme_file_uri() . '/images/logo.png'; ?> "alt="">
-		<?php wp_nav_menu(['theme_location' => '',]); ?>
+		<?php wp_nav_menu(['theme_location' => 'primary',]); ?>
 	</header>
 	<div id="content" class="site-content">
 		<div class="ast-container">

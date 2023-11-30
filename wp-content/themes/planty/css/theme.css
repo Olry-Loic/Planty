@@ -64,11 +64,53 @@ li#menu-item-19, .menu-item {
     justify-content: center;
     flex-wrap: wrap;
 }
-/*_____________________________________________________page________________________________________________*/
+@media (max-width: 900px) {
+    header {
+        flex-direction: column;
+        height: auto;
+    }
+    ul#menu-principal {
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    li#menu-item-18 {
+        background-color: #FFFFFF;
+        height: 19px;
+    }
+    li#menu-item-18 a {
+        color: #000000;
 
+    }
+    header img {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+}
+/*_____________________________________________________page________________________________________________*/
 div#page {
     max-width: 1440px;
     width: 100%;
     display: flex;
     margin: auto;
+}
+/*__________________________________________________Footer___________________________________________________*/
+
+footer {
+    max-width: 1440px;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a.menu-link {
+    color: black;
+    font-family: Syne;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
 }
