@@ -18,7 +18,8 @@ header {
 ul#menu-principal {
     display: flex;
     text-decoration: none;
-    gap:60px ;
+    gap: 60px;
+    margin-bottom: 0px
 }
 ::marker {
     color: transparent;
@@ -95,6 +96,31 @@ div#page {
     display: flex;
     margin: auto;
 }
+div#content {
+    background-color: #ECE2DA;
+}
+header.entry-header.ast-no-thumbnail.ast-no-title.ast-header-without-markup {
+    display: none;
+}
+@media (max-width: 720px) {
+
+img.attachment-full.size-full.wp-image-78 {
+    object-fit: cover;
+  
+}
+img.attachment-full.size-full.wp-image-71 {
+    object-fit: cover;
+
+}
+img.attachment-large.size-large.wp-image-266 {
+    object-fit: contain;
+}
+.elementor-8 .elementor-element.elementor-element-ff50337 img {
+  
+    object-fit: contain;
+  
+}
+}
 /*__________________________________________________Footer___________________________________________________*/
 
 footer {
@@ -104,6 +130,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
 }
 a.menu-link {
     color: black;
@@ -113,4 +140,7 @@ a.menu-link {
     line-height: 19px;
     letter-spacing: 0em;
     text-align: center;
+}
+ul#menu-pied-de-page {
+    margin: 0px;
 }
