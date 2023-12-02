@@ -176,3 +176,41 @@ input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
 textarea.wpcf7-form-control.wpcf7-textarea {
     border-radius: 5px;
 }
+/*_______________________________________formulaire commande_________________________________________*/
+
+.panneau {
+    display: flex;
+   
+    max-width: 860px;
+}
+input.wpcf7-form-control.wpcf7-text {
+    border-radius: 5px;
+}
+input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-number {
+border-radius: 5px;
+}
+.colonne1, .colonne2 {
+    padding: 0px 40px;
+}
+.colonne1 {
+    border-right: 1px solid white;
+}
+.colonne1 p, .colonne2 p {
+    color: white;
+    font-family: syne;
+    font-size: 30px;
+}
+label {
+    font-size: 20px;
+}
+.elementor-element.elementor-element-70b73fa.e-flex.e-con-boxed.e-con.e-child {
+    padding-top: 20px;
+}
+@media(max-width:780px) {
+    .panneau {
+        flex-direction: column;
+    }
+    .colonne1 {
+        border-right: none;
+    }
+}

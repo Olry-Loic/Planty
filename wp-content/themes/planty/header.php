@@ -59,7 +59,7 @@ if ( apply_filters( 'astra_header_profile_gmpg_link', true ) ) {
 	astra_content_before();
 	?>
 	<header>
-		<img src="<?php echo get_theme_file_uri() . '/images/logo.png'; ?> "alt="">
+		<a href="http://localhost/Planty/"><img src="<?php echo get_theme_file_uri() . '/images/logo.png'; ?> "alt=""></a>
 		<?php wp_nav_menu(['theme_location' => 'primary',]); ?>
 	</header>
 	<div id="content" class="site-content">
